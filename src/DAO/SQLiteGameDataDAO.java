@@ -145,6 +145,7 @@ public class SQLiteGameDataDAO implements GameDataDAO {
 
                 System.out.println("Leaderboard Player: " + playerName + " Level: " + playerLevel + " Attempts: " + playerAttempts);
                 // Create or retrieve the Game obj for this game_id
+                // Below is optional, but it can be used to export to csv, populate in a gui
                 Guesser player = new Guesser(playerName, PlayerLevel.valueOf(playerLevel), null);
                 player.getGuesses().addAll(Arrays.asList(guesses.split(", ")));
 
