@@ -56,7 +56,7 @@ public class SecretKeeper {
         Random random = new Random();
         StringBuilder localSecret = new StringBuilder(4);
         for (int i = 0; i < 4; i++) {
-            localSecret.append(random.nextInt(7)); // Generate digits 0-7
+            localSecret.append(random.nextInt(8)); // Generate digits 0-7
         }
         return localSecret.toString();
     }
