@@ -7,6 +7,7 @@ Key features include:
 - Written in Java, adhering to Object-Oriented Programming (OOP) and (mostly) SOLID principles.
 - Game data, including player names, rounds, results, timestamps, secret codes, and guess histories, are stored in an SQLite database.
 - Docker-enabled for cross-platform compatibility and ease of use.
+- Player can select number of players, levels, and display a leaderboard
 
 ## Game Rules
 The goal of Mastermind is to guess the secret code composed of four distinct pieces, each ranging from 0 to 7. After each guess, feedback is provided:
@@ -59,9 +60,11 @@ Run: </br>
 ```
 ./play_LocalMM.sh
 ```
+
+
 Optional: Display the leaderboard (default: top 3 players; example shows 5)
 ```
-./play_LocalMM.sh --leaderboard 5</br>
+./play_LocalMM.sh --leaderboard 5
 ```
 
 View data:
@@ -128,12 +131,20 @@ Exit the container's shell:
 ### For the sake of brevity, I limited the maximum attempts to 5 (instead of 10).</br>
 
 #### Run and play the game locally using the command line:</br> 
-![Running locally on command line](./ScreenCaps/GamePlay.png)
+![Running locally on command line](./ScreenCaps/Run_Leaderboard.png)
 
 </br>
 
 #### Wrong input entered!</br> 
 ![Wrong input entered](./ScreenCaps/WrongInput.png) 
+</br>
+
+#### Feedback (different per level)</br>
+![Feedback](./ScreenCaps/Feedback_Round.png) 
+</br>
+
+#### Leaderboard output</br>
+![Leaderboard](./ScreenCaps/Leaderboard.png) 
 </br>
 
 #### Viewing data in DB Browser:</br> 
