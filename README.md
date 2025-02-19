@@ -128,7 +128,6 @@ Exit the container's shell:
 
 ## Screen Captures
 
-
 #### Run and play the game locally using the command line:</br> 
 ![Running locally on command line](./ScreenCaps/Run_Leaderboard.png)
 
