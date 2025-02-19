@@ -128,7 +128,6 @@ Exit the container's shell:
 
 ## Screen Captures
 
-### For the sake of brevity, I limited the maximum attempts to 5 (instead of 10).</br>
 
 #### Run and play the game locally using the command line:</br> 
 ![Running locally on command line](./ScreenCaps/Run_Leaderboard.png)
